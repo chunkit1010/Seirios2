@@ -4,7 +4,7 @@
     v-for="(item, index) in notificationItems" :key="index">
      <div class="notification-container__info-panel">
         <div v-if="item.status" class="notification-container__badge">New</div>
-        <img v-if="item.type === 'alert'" class="notification-container__icon notification-container__icon--alert mt-1" alt="covid" src="../../assets/svg/covid.svg" />
+        <img v-if="item.type === 'alert'" class="notification-container__icon notification-container__icon--alert mt-1" alt="covid" src="assets/svg/covid.svg" />
         <b-icon-file-medical-fill v-else-if="item.type === 'reminder'" class="notification-container__icon notification-container__icon--reminder"></b-icon-file-medical-fill>
         <b-icon-star-fill v-else class="notification-container__icon notification-container__icon--rating"></b-icon-star-fill>
         <span :class="['notification-container__title', {'notification-container__title--alert' : item.type === 'alert', 'notification-container__title--reminder' : item.type === 'reminder', 'notification-container__title--rating' : item.type === 'rate'}]"

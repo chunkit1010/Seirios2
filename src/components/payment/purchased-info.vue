@@ -50,7 +50,7 @@
           <b-icon-info-circle />
           <strong> Please present this QR code to the staff at checkout!</strong>
         </b-alert>
-        <img class="activity-item__qr-code" :src="`../../assets/icons/activities/${item.qrCode}`" />
+        <img class="activity-item__qr-code" :src="`assets/icons/activities/${item.qrCode}`" />
       </div>
     </div>
 
@@ -78,7 +78,7 @@ export default {
     },
 
     imageSrc(icon) {
-      return `../../assets/icons/activities/${icon}`;
+      return `assets/icons/activities/${icon}`;
     },
 
     ratingColor(val) {

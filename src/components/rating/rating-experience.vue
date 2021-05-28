@@ -79,7 +79,7 @@
       <button type="button" @click="submitBtnClicked()" class="rating__container btn btn-primary mt-3 mb-4">Submit</button>
     </div>
     <div class="text-center" v-else>
-      <img class="rating__container" alt="login" src="../../assets/svg/thank-you.svg" />
+      <img class="rating__container" alt="login" src="assets/svg/thank-you.svg" />
       <h4><b>Thank you for your contribution</b></h4>
       <h6 class="mt-4">Here is a discount code of <b>$3.00</b> for your next purchase!</h6>
       <strong>RMT0APEC!21</strong>

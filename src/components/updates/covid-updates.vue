@@ -15,7 +15,7 @@
     <div class="covid-updates">
        <b-row cols="1" cols-md="2">
         <b-col>
-          <img class="covid-updates__icon" src="../../assets/svg/mask.svg" />
+          <img class="covid-updates__icon" src="assets/svg/mask.svg" />
           <div>
             <strong>Mandatory to wear face mask on:</strong>
             <p class="covid-updates__text" v-html="selectedStateData.faceMaskRules"></p>
@@ -30,7 +30,7 @@
           </div>
         </b-col>
         <b-col>
-          <img class="covid-updates__icon" src="../../assets/svg/social-distancing.svg" />
+          <img class="covid-updates__icon" src="assets/svg/social-distancing.svg" />
           <div>
             <strong>Capacity at social gatherings:</strong>
             <p class="covid-updates__text" v-html="selectedStateData.socialGatheringRules"></p>
@@ -43,13 +43,13 @@
           </div>
         </b-col>
         <b-col>
-          <img class="covid-updates__icon" alt="permit" src="../../assets/svg/permit.svg" />
+          <img class="covid-updates__icon" alt="permit" src="assets/svg/permit.svg" />
           <div>
             <strong v-html="selectedStateData.permitRules"></strong>
           </div>  
         </b-col>
         <b-col>
-          <img class="covid-updates__icon" alt="mobile" src="../../assets/svg/mobile.svg" />
+          <img class="covid-updates__icon" alt="mobile" src="assets/svg/mobile.svg" />
           <div>
             <strong>Required to download Service {{selectedStateData.state}} app</strong>
           </div>

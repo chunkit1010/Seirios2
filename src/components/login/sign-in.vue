@@ -1,7 +1,7 @@
 <template>
   <div class="body-container-with-nav">
     <div class="icon-container">
-      <img class="icon-container__icon" alt="login" src="../../assets/svg/login.svg" />
+      <img class="icon-container__icon" alt="login" src="assets/svg/login.svg" />
     </div>
     <div class="form-container">
       <form>

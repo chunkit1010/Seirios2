@@ -7,7 +7,7 @@
     <div class="item-with-full-width mb-5" >
       <p class="item-with-full-width text-left mt-3">Please enter your new credit card number</p>
       <br />
-      <img alt="credit-card" src="../../assets/icons/credit-card.png" />
+      <img alt="credit-card" src="assets/icons/credit-card.png" />
 
       <b-form inline>
         <b-form-input class="form-control--no-border form-control--xsmall mb-2 mr-sm-2 mb-sm-0"></b-form-input>

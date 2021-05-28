@@ -18,7 +18,7 @@
       <div class="user-account__width-sm" v-if="newCard">
         <hr />
         <strong>{{newCard}}</strong>
-        <img alt="credit-card" src="../../assets/icons/credit-card.png" />
+        <img alt="credit-card" src="assets/icons/credit-card.png" />
         <b-icon-file-excel @click="deleteCard()" class="float-right delete-icon"></b-icon-file-excel>
         <hr />
       </div>
@@ -70,7 +70,8 @@ export default {
 
   async created() {
     const userRes = await fetch("user.json");
-    const user = JSON.parse(localStorage.getItem('newUserObject')) ? JSON.parse(localStorage.getItem('newUserObject')) : await userRes.json();
+    const userDetailsFromJson = await userRes.json();
+    const user = localStorage.getItem('newUserObject') ? JSON.parse(localStorage.getItem('newUserObject')) : userDetailsFromJson[0];
     this.userInitial = `${user.firstName.charAt(0)}${user.lastName.charAt(0)}`;
     this.userEmail = user.email;
     this.userFirstName = user.firstName;
@@ -103,6 +104,7 @@ export default {
 
     @media (min-width: 768px) {
       margin-left: 2.5em;
+      margin-top: 2em;
     }
 }
 

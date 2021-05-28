@@ -45,12 +45,12 @@
         <b-row>
           <b-col><img class="activity-info__gallery-full-heigh-image" :src="imageSrc" /></b-col>
           <b-col>
-            <img class="activity-info__gallery-half-heigh-image mb-1" :src="`../../assets/icons/activities/${selectedActivity.id}-0.jpg`" />
-            <img class="activity-info__gallery-half-heigh-image" :src="`../../assets/icons/activities/${selectedActivity.id}-1.jpg`" />
+            <img class="activity-info__gallery-half-heigh-image mb-1" :src="`assets/icons/activities/${selectedActivity.id}-0.jpg`" />
+            <img class="activity-info__gallery-half-heigh-image" :src="`assets/icons/activities/${selectedActivity.id}-1.jpg`" />
           </b-col>
           <b-col>
-            <img class="activity-info__gallery-half-heigh-image mb-1" :src="`../../assets/icons/activities/${selectedActivity.id}-2.jpg`" />
-            <img class="activity-info__gallery-half-heigh-image" :src="`../../assets/icons/activities/${selectedActivity.id}-3.jpg`" />
+            <img class="activity-info__gallery-half-heigh-image mb-1" :src="`assets/icons/activities/${selectedActivity.id}-2.jpg`" />
+            <img class="activity-info__gallery-half-heigh-image" :src="`assets/icons/activities/${selectedActivity.id}-3.jpg`" />
           </b-col>
         </b-row>
       </b-container>
@@ -61,16 +61,16 @@
           :img-src="imageSrc"
         ></b-carousel-slide>
         <b-carousel-slide
-          :img-src="`../../assets/icons/activities/${selectedActivity.id}-0.jpg`"
+          :img-src="`assets/icons/activities/${selectedActivity.id}-0.jpg`"
         ></b-carousel-slide>
         <b-carousel-slide
-          :img-src="`../../assets/icons/activities/${selectedActivity.id}-1.jpg`"
+          :img-src="`assets/icons/activities/${selectedActivity.id}-1.jpg`"
         ></b-carousel-slide>
         <b-carousel-slide
-          :img-src="`../../assets/icons/activities/${selectedActivity.id}-2.jpg`"
+          :img-src="`assets/icons/activities/${selectedActivity.id}-2.jpg`"
         ></b-carousel-slide>
         <b-carousel-slide
-          :img-src="`../../assets/icons/activities/${selectedActivity.id}-3.jpg`"
+          :img-src="`assets/icons/activities/${selectedActivity.id}-3.jpg`"
         ></b-carousel-slide>
       </b-carousel>
     </div>
@@ -85,8 +85,8 @@
           <b-row>
             <b-col v-if="selectedActivity.indoorSpace"><b-icon-shop class="icons-large"></b-icon-shop><br/>Indoor space</b-col>
             <b-col v-if="selectedActivity.outdoorSpace"><b-icon-tree-fill class="icons-large"></b-icon-tree-fill><br/>Outdoor space</b-col>
-            <b-col v-if="selectedActivity.isPetsAllowed"><img class="mb-2" alt="pet" src="../../assets/svg/pet.svg" /><br/>Pet friendly</b-col>
-            <b-col v-if="selectedActivity.byoWine"><img class="mb-2" alt="byo" src="../../assets/svg/wine.svg" /><br/>BYO</b-col>
+            <b-col v-if="selectedActivity.isPetsAllowed"><img class="mb-2" alt="pet" src="assets/svg/pet.svg" /><br/>Pet friendly</b-col>
+            <b-col v-if="selectedActivity.byoWine"><img class="mb-2" alt="byo" src="assets/svg/wine.svg" /><br/>BYO</b-col>
             <b-col v-if="selectedActivity.freeCancellation"><b-icon-calendar-check-fill class="icons-large"></b-icon-calendar-check-fill><br/>Flexible arrangements</b-col>
           </b-row>
         </b-container>
@@ -152,7 +152,7 @@ export default {
 
   computed: {
     imageSrc() {
-      return `../../assets/icons/activities/${this.selectedActivity.icon}`;
+      return `assets/icons/activities/${this.selectedActivity.icon}`;
     },
 
     getPurchasedItems() {

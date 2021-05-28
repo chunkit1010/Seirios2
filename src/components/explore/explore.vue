@@ -1,7 +1,7 @@
 <template>
   <div class="body-container-with-nav">
     <div class="explore-container">
-      <img class="explore-container__image" src="../../assets/icons/explore-melbourne.png" />
+      <img class="explore-container__image" src="assets/icons/explore-melbourne.png" />
       <b-input-group class="explore-container__input input-group--with-shadow" >
         <b-form-input :placeholder="location"></b-form-input>
         <template #append>
@@ -14,7 +14,7 @@
       </b-input-group>
 
       <a class="explore-container__covid-alert-text" href="/updates?restrictions=true">
-        <img class="explore-container__covid-alert-icon" alt="alert" src="../../assets/svg/covid.svg" />
+        <img class="explore-container__covid-alert-icon" alt="alert" src="assets/svg/covid.svg" />
         <span>Victoria restrictions</span>
       </a>
     </div>

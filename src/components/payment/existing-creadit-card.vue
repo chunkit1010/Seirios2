@@ -10,7 +10,7 @@
           <hr />
           <div>
             <strong>{{creditCardDetail}}</strong>
-            <img alt="credit-card" src="../../assets/icons/credit-card.png" />
+            <img alt="credit-card" src="assets/icons/credit-card.png" />
           </div>
           <hr />
           <button type="button" @click="continueBtnclicked()" class="form-container__btn btn btn-primary mt-3 mb-3">Continue</button>

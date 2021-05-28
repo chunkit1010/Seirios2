@@ -47,7 +47,7 @@ export default {
     },
 
     imageSrc(icon) {
-      return `../../assets/icons/${icon}`;
+      return `assets/icons/${icon}`;
     },
 
     itemClicked(id, selected) {
