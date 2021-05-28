@@ -1,0 +1,79 @@
+[
+  {
+    "state" : "Victoria",
+    "capital": "Melbourne",
+    "icon": "exclamation-octagon-fill",
+    "id": 0,
+    "selected": false,
+    "faceMaskRules": "<ul><li>Compulsory indoors at all times for anyone aged 12 years and older unless you have an exemption</li></ul>",
+    "socialGatheringRules": "<ul><li>No more than <b>5</b> visitors to a home per day</li><li>No more than <b>30</b> people at public gatherings</li><li>Anyone from Greater Metropolitan Melbourne can travel to regional Victoria but the Melbourne restrictions will apply during your travels</li></ul>", 
+    "socialDistancingRules": "<ul><li>Seated ticketed events: maximum 30 people</li><li>Non-seated: 1 person per 2sqm</li></ul>",
+    "permitRules": "<ul><li>South Australia's border is now closed to Victoria</li><li>Permit required for those travelling from interstate to Victoria</li><li>there is a <b>35K</b> travel limit in place, you can not travel further than this distance away from your home</li><ul>"
+  },
+  {
+    "state" : "New South Wales",
+    "capital": "Sydney",
+    "icon": "",
+    "id": 1,
+    "selected": false,
+    "faceMaskRules": "<ul><li>Airport and flights</li></ul>",
+    "socialGatheringRules": "<ul><li>100 visitors to your home per day</li><li>200 people can meet outdoors in a public place</li></ul>", 
+    "socialDistancingRules": "<ul><li>Seated ticketed events: maximum 1500 people</li><li>Non-seated: 1 person per 2sqm</li></ul>",
+    "permitRules": "Entry declaration form from people travelling from Victoria only"
+  },
+  {
+    "state" : "West Australia",
+    "capital": "Perth",
+    "icon": "",
+    "id": 2,
+    "selected": false,
+    "faceMaskRules": "<ul><li>Airport and flights</li></ul>",
+    "socialGatheringRules": "<ul><li>No restrictions are in place at the moment</li></ul>",
+    "socialDistancingRules": "<ul><li>No restrictions are in place at the moment</li></ul>",
+    "permitRules": "Entry declaration form from people travelling from Victoria only"
+  },
+  {
+    "state" : "South Australia",
+    "capital": "Adelaide",
+    "icon": "",
+    "id": 3,
+    "selected": false,
+    "faceMaskRules": "<ul><li>Airport and flights</li></ul>",
+    "socialGatheringRules": "<ul><li>No restrictions are in place at the moment</li></ul>",
+    "socialDistancingRules": "<ul><li>No restrictions are in place at the moment</li></ul>",
+    "permitRules": "<ul><ul><li>South Australia's border is now closed to Victoria</li></ul>"
+  },
+  {
+    "state" : "Tasmania",
+    "capital": "Hobart",
+    "icon": "",
+    "id": 4,
+    "selected": false,
+    "faceMaskRules": "<ul><li>Airport and flights</li></ul>",
+    "socialGatheringRules": "<ul><li>No restrictions are in plaxce at the moment</li></ul>",
+    "socialDistancingRules": "<ul><li>No restrictions are in plaxce at the moment</li></ul>",
+    "permitRules": "Entry declaration form from people travelling from Victoria only"
+  },
+  {
+    "state" : "Northern Teritory",
+    "capital": "Alice Springs",
+    "icon": "",
+    "id": 5,
+    "selected": false,
+    "faceMaskRules": "",
+    "socialGatheringRules": "<ul><li>No restrictions are in plaxce at the moment</li></ul>",
+    "socialDistancingRules": "",
+    "permitRules": "Entry declaration form from people travelling from Victoria only"
+  },
+  {
+    "state" : "Queensland",
+    "capital": "Brisbane",
+    "icon": "",
+    "id": 6,
+    "selected": false,
+    "faceMaskRules": "<ul><li>Airport and flights</li><li>Hospital & aged care facility </li></ul>",
+    "socialGatheringRules": "<ul><li>No restrictions are in plaxce at the moment</li></ul>",
+    "socialDistancingRules": "<ul><li>No restrictions are in plaxce at the moment</li></ul>",
+    "permitRules": "Entry declaration form from people travelling from Victoria only"
+  }
+]

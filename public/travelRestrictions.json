@@ -1,0 +1,9 @@
+[
+  {
+    "travelLimitDistance" : 35,
+    "groupNumbers": 300,
+    "travelApplicationRequired": false,
+    "selfIsolationRequired": false,
+    "state": "vic"
+  }
+]

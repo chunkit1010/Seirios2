@@ -1,0 +1,198 @@
+$brand-purple: #421EB7;
+$light-purple: #F2E9FF;
+$black: #0000;
+$alert: #F21E1E;
+$success: #028727;
+$warning: #EF7D2A;
+
+
+* {
+  font-family: "Halant script=latin rev=2";
+}
+
+.dropdown-menu {
+  li {
+    list-style-type: none;
+  }
+}
+
+.input-group__with-border {
+  border: 1px solid black !important;
+}
+
+.form-control {
+  border-radius: 0;
+
+  &--no-border {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: inherit;
+    margin: 0.5em 0;
+  }
+
+  &--small {
+    width: 25%;
+    display: inline;
+  }
+
+  &--xsmall {
+    width: 20%;
+    display: inline;
+
+    @media (min-width: 768px) {
+      width: 22%;
+    }
+  }
+
+  &:focus {
+    box-shadow: inherit;
+    border-color: $brand-purple;
+  }
+}
+
+.highlighted-text {
+  color: $brand-purple;
+}
+
+.invalid-feedback {
+  text-align: left;
+  color: $alert;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn-primary {
+  background-color: $brand-purple;
+  border-color: $brand-purple;
+
+  &:hover {
+    background-color: $brand-purple;
+    border-color: $brand-purple;
+  }
+
+  &:focus,
+  &:active {
+    background-color: $light-purple;
+    color: $brand-purple;
+    border-color: transparent; 
+    box-shadow: 0 0 0 0.25rem rgb(66 30 183 / 50%);
+  }
+}
+
+a:hover {
+  color: $brand-purple;
+}
+
+.alert {
+  border-radius: 0;
+}
+
+button.btn.btn-outline-secondary {
+  border-color: #00160A;
+  color: #00160A;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+  }
+}
+
+.font-uppercase {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.item-right-float {
+  float: right;
+}
+
+.font-size-lg {
+  font-size: 24px;
+}
+
+.text-left {
+  text-align: left !important;
+  float: left !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+.item-with-full-width {
+  width: 100%
+}
+
+li {
+  list-style-type: square;
+}
+
+.icons-large { 
+  font-size: 24px;
+  color: black;
+}
+
+.form-control-sm {
+  width: 60px;
+  margin: 1em;
+  padding: 1em;
+  border-color: black;
+  transform: translateY(-10px);
+}
+
+.modal-header {
+  .close {
+    display: none;
+  }
+}
+
+.modal-icon {
+  font-size: 1.5em;
+}
+.modal-dialog {
+  max-width: 600px;
+}
+
+.plr-2 {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.mr-3 {
+  padding-right: 3em;
+}
+
+.icon-success {
+  color: $success;
+}
+
+.icon-warning {
+  color: $warning;
+}
+
+.icon-alert {
+  color: $alert;
+}
+
+button.btn.btn-outline-secondary.rounded-0.disabled {
+  background-color: #b5b5b5;
+  color: black;
+  border: none;
+}
+
+.tooltip-btn,
+.tooltip-btn:hover {
+  background: transparent;
+  border: none;
+  color: black;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "type" : "alert",
+    "title": "A wave of new restrictions have been implemented for Melbourne residents as Victoria races to contain another COVID-19 outbreak.",
+    "description:": "No lockdown has yet been announced, and Melbourne residents are allowed to travel, however, if a Melbourne resident visits regional Victoria, the restrictions travel with them.",
+    "link": "/updates?restrictions=true",
+    "activityName": null,
+    "activityLocation": null,
+    "activityDate": null,
+    "timeVisited": null,
+    "status": "new"
+  },
+  {
+    "type" : "rate",
+    "title:": null,
+    "description": "To build trust and to make people feel safe about engaging in local tourism, each activity has a COVID safety rating. This rating is determined by reviews of those who have already experienced the activity. The review questions are based on the COVID-safe criteria for businesses found on the NSW and Victorian government websites.",
+    "link": "/vouchers",
+    "activityName": "Rising Festival- The Wilds",
+    "activityLocation": null,
+    "activityDate": "Saturday 2021-05-22",
+    "timeVisited": null,
+    "status": null
+  },
+  {
+    "type" : "alert",
+    "title:": null,
+    "description": "Seek immediate medical attention if you have serious symptoms like fever, dry cough and tiredness. Always call before visiting your doctor or health facility.",
+    "link": "https://www.dhhs.vic.gov.au/getting-tested",
+    "activityName": "Rising Festival- The Wilds",
+    "activityLocation": "Entry to the Wilds and ice-skate hire",
+    "activityDate": "Saturday 2021-05-22",
+    "timeVisited": "12:00 PM",
+    "status": null
+  },
+  {
+    "type" : "reminder",
+    "title:": null,
+    "description": "If you can not use this activity due to Covid-19 restrictions in place please contact us. we would be delighted to assist you.",
+    "link": "/vouchers",
+    "activityName": "Hot Air Balloon Experience over the Yarra Valley",
+    "activityLocation": "Balgownie Estate (1309 Melba Highway, Yarra Glen)",
+    "activityDate": "Sunday 2021-05-30",
+    "timeVisited": null,
+    "status": "new"
+  }
+]

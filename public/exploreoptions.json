@@ -1,0 +1,38 @@
+[
+  {
+    "name" : "Self guided tours",
+    "icon": "self-guided-tours.png",
+    "id": 0,
+    "selected": false
+  },
+  {
+    "name" : "The great outdoors",
+    "icon": "the-great-outdoors.png",
+    "id": 1,
+    "selected": false
+  },
+  {
+    "name" : "Food & drinks",
+    "icon": "food-and-drinks.png",
+    "id": 2,
+    "selected": false
+  },
+  {
+    "name" : "Festivals",
+    "icon": "festivals.png",
+    "id": 3,
+    "selected": false
+  },
+  {
+    "name" : "Entertainments",
+    "icon": "entertainments.png",
+    "id": 4,
+    "selected": false
+  },
+  {
+    "name" : "Markets",
+    "icon": "markets.png",
+    "id": 5,
+    "selected": false
+  }
+]
