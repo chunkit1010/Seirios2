@@ -16,6 +16,26 @@
           <button type="button" @click="continueBtnclicked()" class="form-container__btn btn btn-primary mt-3 mb-3">Continue</button>
           <br />
         </div>
+        <div v-else-if="userLoggedIn">
+          <p class="item-with-full-width text-left mt-3">Please enter your new credit card number</p>
+          <br />
+          <img alt="credit-card" src="../../assets/icons/credit-card.png" />
+          <b-form inline>
+            <b-form-input class="form-control--no-border form-control--xsmall mb-2 mr-sm-2 mb-sm-0"></b-form-input>
+            -
+            <b-form-input class="form-control--no-border form-control--xsmall mb-2 mr-sm-2 mb-sm-0"></b-form-input>
+            -
+            <b-form-input class="form-control--no-border form-control--xsmall mb-2 mr-sm-2 mb-sm-0"></b-form-input>
+            -
+            <b-form-input class="form-control--no-border form-control--xsmall mb-2 mr-sm-2 mb-sm-0"></b-form-input>
+          </b-form>
+          <b-form inline>
+            <b-form-input class="form-control--no-border form-control--xsmall mb-2 mr-sm-2 mb-sm-0 float-left" placeholder="Expiry Date"></b-form-input>
+            
+            <b-form-input class="form-control--no-border form-control--xsmall mb-2 mr-sm-2 mb-sm-0 float-right" placeholder="CCV"></b-form-input>
+          </b-form>
+          <button type="button" @click="continueBtnclicked()" class="form-container__btn btn btn-primary mt-3 mb-3">Continue</button>
+        </div>
         <div v-else>
           <hr />
           <div>
@@ -63,6 +83,7 @@ export default {
       loading: false,
       showActivityInfo: false,
       item: [],
+      userLoggedIn: localStorage.userName ? localStorage.userName : null,
       creditCardDetail: localStorage.newCreditCard ? localStorage.newCreditCard : null
     }
   },
