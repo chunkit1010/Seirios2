@@ -8,11 +8,11 @@
     <p class="mt-4">Please choose how many vouchers you would like to buy</p>
     <div class="activity-info__flex activity-info__modal-body">
       <div class="form-container__link activity-info__left">
-        <img alt="pet" src="assets/svg/minus.svg" @click="deductPurchaseNo()" />
+        <img alt="pet" src="../../assets/svg/minus.svg" @click="deductPurchaseNo()" />
       </div>
       <b-form-input v-model="ticketNumber" type="number" class="form-control form-control-sm" min="1" max="10"></b-form-input>
       <div class="form-container__link activity-info__right">
-        <img alt="pet" src="assets/svg/plus.svg" @click="increasePurchaseNo()" />
+        <img alt="pet" src="../../assets/svg/plus.svg" @click="increasePurchaseNo()" />
       </div>
     </div>
 

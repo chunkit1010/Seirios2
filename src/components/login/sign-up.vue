@@ -1,7 +1,7 @@
 <template>
   <div class="body-container-with-nav">
     <div class="icon-container">
-      <img class="icon-container__icon" alt="sign up" src="assets/svg/sign-up.svg" />
+      <img class="icon-container__icon" alt="sign up" src="../../assets/svg/sign-up.svg" />
     </div>
     <div class="form-container">
       <form v-if="isForgotPassword">

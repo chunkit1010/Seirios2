@@ -18,7 +18,7 @@
       <div class="user-account__width-sm" v-if="newCard">
         <hr />
         <strong>{{newCard}}</strong>
-        <img alt="credit-card" src="assets/icons/credit-card.png" />
+        <img alt="credit-card" src="../../assets/icons/credit-card.png" />
         <b-icon-file-excel @click="deleteCard()" class="float-right delete-icon"></b-icon-file-excel>
         <hr />
       </div>

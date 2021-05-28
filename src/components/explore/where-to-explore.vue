@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="where-to-explore__icon-container">
-      <img class="where-to-explore__icon" alt="explore" src="assets/svg/explore.svg" />
+      <img class="where-to-explore__icon" alt="explore" src="../../assets/svg/explore.svg" />
     </div>
     <div class="form-container form-container__where-to-explore">
       <form>
@@ -57,12 +57,12 @@
           <h4 class="mb-5"><strong>Welcome to Seirios</strong></h4>
           <b-container class="bv-example-row text-left">
             <b-row class="justify-content-md-center">
-              <b-col cols="3"><img class="intro-modal__icon" alt="discover" src="assets/svg/discover.svg" /></b-col>
+              <b-col cols="3"><img class="intro-modal__icon" alt="discover" src="../../assets/svg/discover.svg" /></b-col>
               <b-col cols="8">Explore and re-discover hidden local gems and experiences that should be on your radar.</b-col>
             </b-row>
             <b-row>
               <b-col cols="8">Travel Safe and with ease of mind according to latest Covid-19 Restrictions and guidelines in place.</b-col>
-              <b-col cols="3"><img class="intro-modal__icon" alt="covid" src="assets/svg/covid-icon.svg" /></b-col>
+              <b-col cols="3"><img class="intro-modal__icon" alt="covid" src="../../assets/svg/covid-icon.svg" /></b-col>
             </b-row>
             <b-row>
               <b-col cols="3"><img class="intro-modal__icon" alt="voucher" src="assets/svg/vouchers.svg" /></b-col>
