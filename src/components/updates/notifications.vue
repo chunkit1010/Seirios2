@@ -25,7 +25,8 @@ export default {
   },
   data() {
     return {
-      notificationItems: []
+      notificationItems: [],
+      purchasedItem: localStorage.getItem("purchasedActivity") ? JSON.parse(localStorage.getItem("purchasedActivity")) : null
     }
   },
   methods: {
@@ -54,7 +55,7 @@ export default {
         case 'alert':
           return !item.timeVisited ? item.title : `One new coronavirus case recorded at <b>${item.activityName}</b> on <b>${item.activityDate}</b>.`;
         case 'reminder':
-          return `<b>${item.activityName}</b> voucher is going to Expire soon!`;
+          return `<b>${this.purchasedItem.name}</b> voucher is going to Expire soon!`;
         case 'rate':
           return `Please share your Covid safety experience with <b>${item.activityName}</b>, which you visited on <b>${item.activityDate}</b>!`;
         default:
