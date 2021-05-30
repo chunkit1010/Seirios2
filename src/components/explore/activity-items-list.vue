@@ -59,7 +59,7 @@
                 <b-icon-info-circle />
                 <strong> Please present this QR code to the staff at checkout!</strong>
               </b-alert>
-              <img class="activity-item__qr-code" :src="`assets/icons/activities/${item.qrCode}`" />
+              <img class="activity-item__qr-code" :src="`../../assets/icons/activities/${item.qrCode}`" />
             </div>
             <div v-if="isVoucher && item.purchased && item.used" class="activity-item__used-info">
               <div class="activity-item__used-info-text">
@@ -69,7 +69,7 @@
                 <b-button squared variant="outline-secondary" @click="experienceRatingClicked(item.name, item.id)" :disabled="disabledBtn">Rate this experience</b-button>
               </div>
               <div class="activity-item__used-info-icon">
-                <img alt="used" src="assets/svg/voucher-used.svg" />
+                <img alt="used" src="../../assets/svg/voucher-used.svg" />
               </div>
             </div>
           </div>
@@ -147,7 +147,7 @@ export default {
     },
 
     imageSrc(icon) {
-      return `assets/icons/activities/${icon}`;
+      return `../../assets/icons/activities/${icon}`;
     },
 
     ratingColor(val) {
@@ -328,10 +328,6 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-
-  @media (min-width: 1400px) {
-    min-height: 428px;
-  }
 }
 
 .activity-item__top-container-text {
